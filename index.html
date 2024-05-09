@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="icon" type="image" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Presentación</h1>
+      <nav>
+        <ul>
+          <li>Acerca de mi</li>
+          <li>Mis tecnologias favoritas</li>
+          <li>Mis actividades favoritas</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>Acerca de mi</h2>
+        <div id="aboutBlock">
+          <a href="https://github.com/rafaelval" target="_blank"><img src="./assets/images/84647580.png" alt=""></a>
+        <p>
+          Me llamo Rafael Valbuena, me gustan los retos, el buen trabajo competitivo en equipo, la resolución de problemas y el aprendizaje diario que conlleva el mundo de la programación
+        </p>
+
+        </div>
+        
+      </section>
+      <section id="favtec">
+        <h2>Mis tecnologias favoritas</h2>
+        <article>
+          <ul>
+            <li>
+              <h3>HTML5</h3>
+              <a href="https://lenguajehtml.com/html/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/512px-HTML5_Badge.svg.png?20110131171049" alt="img html" /></a>
+            </li>
+            <li>
+              <h3>CSS3</h3>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817" alt="img CSS3" /></a>
+            </li>
+            <li>
+              <h3>JavaScript</h3>
+              <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png" alt="img JavaScript" /></a>
+            </li>
+            <li>
+              <h3>React</h3>
+              <a title="react" href="https://es.react.dev" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="img React" /></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="favact">
+        <h2>Mis actividades favoritas</h2>
+        <form action="" id="form">
+          <div>
+            <label for="title">
+              Titulo:
+              <input type="text" name="title" id="title" placeholder="Ingresa el titulo"/>
+            </label>
+          </div>
+          <div>
+            <label for="description">
+              Descripcion:
+              <textarea name="description" id="description" rows="2" ></textarea>
+            </label>
+          </div>
+          <div>
+            <label for="imgUrl">
+              Url de la imagen
+              <input type="imgUrl" name="imgUrl" id="imgUrl" />
+            </label>
+          </div>
+          <input type="submit" id="add" value="Enviar" />
+        </form>
+        <div name="cards" id="cards">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Rafael Valbuena 2024</p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
